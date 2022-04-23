@@ -28,7 +28,7 @@ let package = Package(
         .executable(name: "injectiond", targets: ["injectiond"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftyMike/HotReloading",
+        .package(url: "https://github.com/johnno1962/SwiftTrace",
                  .upToNextMinor(from: "8.2.11")),
         .package(name: "SwiftRegex",
                  url: "https://github.com/johnno1962/SwiftRegex5",
